@@ -8,7 +8,9 @@ CLI tool for analyzing audio file dynamics, loudness, and spectral content. Outp
 - `ffprobe`
 - `bc`
 
-All typically pre-installed on macOS and Linux.
+`bc` is typically pre-installed on MacOS/Linux.
+
+For ffmpeg/ffprobe: use your favorite package manager (brew/apt/pacman/nix/etc..) to install if not already on your system.
 
 ## Usage
 
@@ -23,7 +25,7 @@ All typically pre-installed on macOS and Linux.
 ./main.sh my_track.wav
 
 # Specify output directory
-./main.sh my_track.mp3 ./output
+./main.sh ./audio/my_track.mp3 ./output
 ```
 
 ## Output
